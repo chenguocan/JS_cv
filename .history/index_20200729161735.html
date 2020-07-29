@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #div1::before {
+        position: absolute;
+        content: "";
+        display: block;
+      }
+      #div1::after {
+        position: absolute;
+        content: "";
+        display: block;
+      }
+      #demo {
+        word-break: break-all;
+      }
+      @media (max-width: 500px) {
+        #demo {
+          height: 50vh;
+          overflow: auto;
+        }
+        #divWrapper {
+          height: 50vh;
+        }
+        #div1 {
+          height: 50vh;
+          position: relative;
+          top: 0;
+          right: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    hi
+    <style id="style"></style>
+    <div id="demo"></div>
+    <div id="divWrapper">
+      <div id="div1"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

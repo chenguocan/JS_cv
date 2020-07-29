@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #div1::before {
+        position: absolute;
+        content: "";
+        display: block;
+      }
+      #div1::after {
+        position: absolute;
+        content: "";
+        display: block;
+      }
+      #demo {
+        word-break: break-all;
+      }
+      @media (max-width: 500px) {
+      }
+    </style>
+  </head>
+  <body>
+    hi
+    <style id="style"></style>
+    <div id="demo"></div>
+    <div id="div1"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
