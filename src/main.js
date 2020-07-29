@@ -13,7 +13,7 @@ let string = `
   border:1px solid red;
   width:200px;
   height:200px;
-  right:100px;
+  right:50px;
   top:50%;
 }
 /*接下来我把一个div变成一个八卦图
